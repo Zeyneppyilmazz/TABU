@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/pandaa"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pandaa"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TABUU"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".kelime39"
+            android:exported="false" />
+        <activity
+            android:name=".kelime38"
+            android:exported="false" />
+        <activity
+            android:name=".kelime37"
+            android:exported="false" />
+        <activity
+            android:name=".kelime36"
+            android:exported="false" />
+        <activity
+            android:name=".kelime35"
+            android:exported="false" />
+        <activity
+            android:name=".kelime34"
+            android:exported="false" />
+        <activity
+            android:name=".kelime33"
+            android:exported="false" />
+        <activity
+            android:name=".kelime32"
+            android:exported="false" />
+        <activity
+            android:name=".kelime31"
+            android:exported="false" />
+        <activity
+            android:name=".kelime30"
+            android:exported="false" />
+        <activity
+            android:name=".kelime29"
+            android:exported="false" />
+        <activity
+            android:name=".kelime28"
+            android:exported="false" />
+        <activity
+            android:name=".kelime27"
+            android:exported="false" />
+        <activity
+            android:name=".kelime26"
+            android:exported="false" />
+        <activity
+            android:name=".kelime25"
+            android:exported="false" />
+        <activity
+            android:name=".kelime24"
+            android:exported="false" />
+        <activity
+            android:name=".kelime23"
+            android:exported="false" />
+        <activity
+            android:name=".kelime22"
+            android:exported="false" />
+        <activity
+            android:name=".kelime21"
+            android:exported="false" />
+
+        <activity
+            android:name=".takimlar"
+            android:exported="false" />
+        <activity
+            android:name=".UserList"
+            android:exported="false"
+            android:label="Kayıtlı Kullanıcı Listesi" />
+        <activity
+            android:name=".kelime11"
+            android:exported="false" />
+        <activity
+            android:name=".kelime10"
+            android:exported="false" />
+        <activity
+            android:name=".kelime9"
+            android:exported="false" />
+        <activity
+            android:name=".kelime8"
+            android:exported="false" />
+        <activity
+            android:name=".kelime7"
+            android:exported="false" />
+        <activity
+            android:name=".kelime6"
+            android:exported="false" />
+        <activity
+            android:name=".kelime5"
+            android:exported="false" />
+        <activity
+            android:name=".kelime4"
+            android:exported="false" />
+        <activity
+            android:name=".ilkekran"
+            android:exported="false" />
+        <activity
+            android:name=".kelime3"
+            android:exported="false" />
+        <activity
+            android:name=".kelime2"
+            android:exported="false" />
+        <activity
+            android:name=".kelime01"
+            android:exported="false" />
+        <activity
+            android:name=".Guncelle"
+            android:exported="false" />
+        <activity
+            android:name=".Parolasifirla"
+            android:exported="false" />
+        <activity
+            android:name=".Uyeactivity"
+            android:exported="false" />
+        <activity
+            android:name=".GirisActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

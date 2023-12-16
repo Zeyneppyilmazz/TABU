@@ -1,0 +1,29 @@
+ {
+  "project_info": {
+    "project_number": "807946484259",
+    "project_id": "tabuu-db133",
+    "storage_bucket": "tabuu-db133.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807946484259:android:40ae80cae0c23810328f96",
+        "android_client_info": {
+          "package_name": "zeynepyilmaz.example.tabuu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1Zi5XsLFDTdOhxzlxJRzX39whMrQbTJM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintarkaplan"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/profiltextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üye olarak veya giriş yaparak kullanım ve gizlilik koşullarını kabul etmiş olursunuz. "
+        android:textColor="@color/buton"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/girisyapbtnnn" />
+
+    <TextView
+        android:id="@+id/profiltext"
+        android:layout_width="277dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="52dp"
+        android:text="Profil Bilgileri"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/profiltext3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/profiltext2"
+        android:layout_width="239dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="58dp"
+        android:text="E-mail adresiniz"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/profilbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profiltext3" />
+
+    <TextView
+        android:id="@+id/profiltext3"
+        android:layout_width="239dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="39dp"
+        android:text="Adınız Soyadınız"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/profiltext2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profiltext" />
+
+    <Button
+        android:id="@+id/profilbutton"
+        android:layout_width="177dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/buttonarkaolan"
+        android:text="Bilgilerimi Güncelle"
+        app:layout_constraintBottom_toTopOf="@+id/profilbutton2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profiltext2" />
+
+    <Button
+        android:id="@+id/profilbutton2"
+        android:layout_width="159dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/buttonarkaolan"
+        android:text="Çıkış Yap"
+        app:layout_constraintBottom_toTopOf="@+id/profilbutton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilbutton" />
+
+    <Button
+        android:id="@+id/profilbutton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/buttonarkaolan"
+        android:text="Hesabımı Sil"
+        app:layout_constraintBottom_toTopOf="@+id/girisyapbtnnn"
+        app:layout_constraintEnd_toEndOf="@+id/profilbutton"
+        app:layout_constraintStart_toStartOf="@+id/profilbutton"
+        app:layout_constraintTop_toBottomOf="@+id/profilbutton2" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <Button
+        android:id="@+id/girisyapbtnnn"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="18dp"
+        android:text="Giriş Yap"
+        app:layout_constraintBottom_toTopOf="@+id/profiltextView4"
+        app:layout_constraintEnd_toEndOf="@+id/profiltextView4"
+        app:layout_constraintStart_toEndOf="@+id/profilbutton3"
+        app:layout_constraintTop_toBottomOf="@+id/profilbutton3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

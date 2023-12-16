@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintarkaplan"
+    tools:context=".kelime38">
+
+    <TextView
+        android:id="@+id/kelime38"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="400dp"
+        android:background="@color/orta"
+        android:text="UZAK DURMAK"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/button383"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kelime38ceza"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="83dp"
+        android:background="@color/buton"
+        android:text="YAKLAŞMAMAK"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/kelime38ceza4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime38" />
+
+    <TextView
+        android:id="@+id/kelime38ceza3"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="63dp"
+        android:background="@color/buton"
+        android:text=" İSTEMEMEK"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/button381"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime38ceza4" />
+
+    <TextView
+        android:id="@+id/kelime38ceza4"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="1dp"
+        android:background="@color/buton"
+        android:text=" MESAFE"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/kelime38ceza3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime38ceza" />
+
+    <TextView
+        android:id="@+id/kelime38ceza5"
+        android:layout_width="187dp"
+        android:layout_height="84dp"
+
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="82dp"
+        android:background="@color/buton"
+        android:text=" KOYMAK"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/kelime38ceza3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/kelime38ceza" />
+
+    <Button
+        android:id="@+id/button381"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="33dp"
+        android:backgroundTint="@color/orta"
+        android:text="TABU"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button382"
+        app:layout_constraintTop_toBottomOf="@+id/kelime38ceza3" />
+
+    <Button
+        android:id="@+id/button382"
+        android:layout_width="0dp"
+        android:layout_height="89dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/orta"
+        android:text="DOĞRU"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button383"
+        app:layout_constraintEnd_toStartOf="@+id/button381"
+        app:layout_constraintStart_toEndOf="@+id/button383" />
+
+    <Button
+        android:id="@+id/button383"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="26dp"
+        android:backgroundTint="@color/orta"
+        android:text="PAS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button382"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime38" />
+</androidx.constraintlayout.widget.ConstraintLayout>

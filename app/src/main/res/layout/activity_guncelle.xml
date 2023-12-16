@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintarkaplan"
+    tools:context=".Guncelle">
+
+    <TextView
+        android:id="@+id/güncelleçerez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üye olarak veya giriş yaparak kullanım ve gizlilik koşullarını kabul etmiş olursunuz. "
+        android:textColor="@color/buton"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/güncellegirisbutton" />
+
+    <TextView
+        android:id="@+id/güncelletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="74dp"
+        android:text="Bilgilerimi Güncelle"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/güncelleadtextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/güncelleTextEmailAddress"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/eddittextarkaplan"
+        android:ems="10"
+        android:hint="E-mail adresinizi giriniz"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/güncelleTextPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/güncelleadtextView" />
+
+    <EditText
+        android:id="@+id/güncelleadtextView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/eddittextarkaplan"
+        android:ems="10"
+        android:hint="Adınızı soyadınızı giriniz"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/güncelleTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/güncelletext" />
+
+    <EditText
+        android:id="@+id/güncelleTextPassword"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/eddittextarkaplan"
+        android:ems="10"
+        android:hint="Parolanızı giriniz"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/güncellebilgibutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/güncelleTextEmailAddress" />
+
+    <Button
+        android:id="@+id/güncellegirisbutton"
+        android:layout_width="143dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/buttonarkaolan"
+        android:text="Giriş Yap"
+        app:layout_constraintBottom_toTopOf="@+id/güncelleçerez"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/güncellebilgibutton" />
+
+    <Button
+        android:id="@+id/güncellebilgibutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/buttonarkaolan"
+        android:text="Bilgilerimi Güncelle"
+        app:layout_constraintBottom_toTopOf="@+id/güncellegirisbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/güncelleTextPassword" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

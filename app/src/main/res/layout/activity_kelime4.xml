@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintarkaplan"
+    tools:context=".kelime4">
+
+    <TextView
+        android:id="@+id/kelime4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="412dp"
+        android:background="@color/orta"
+        android:text="       AKREP"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/button43"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kelime4ceza"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:background="@color/buton"
+        android:text="    SAAT"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/kelime4ceza5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime4" />
+
+    <TextView
+        android:id="@+id/kelime4ceza3"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="76dp"
+        android:background="@color/buton"
+        android:text=" BAKMAK "
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/button41"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime4ceza4" />
+
+    <TextView
+        android:id="@+id/kelime4ceza4"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="1dp"
+        android:background="@color/buton"
+        android:text="YELKOVAN"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/kelime4ceza3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime4ceza5" />
+
+    <TextView
+        android:id="@+id/kelime4ceza5"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:background="@color/buton"
+        android:text=" HAYVAN"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/kelime4ceza4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime4ceza" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="@color/orta"
+        android:text="TABU"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button42"
+        app:layout_constraintTop_toBottomOf="@+id/kelime4ceza3" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="0dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="15dp"
+        android:backgroundTint="@color/orta"
+        android:text="DOĞRU"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button41"
+        app:layout_constraintEnd_toStartOf="@+id/button41"
+        app:layout_constraintStart_toEndOf="@+id/button43" />
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="25dp"
+        android:backgroundTint="@color/orta"
+        android:text="PAS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

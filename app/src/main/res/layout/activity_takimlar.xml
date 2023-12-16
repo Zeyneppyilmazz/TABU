@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintarkaplan"
+    tools:context=".takimlar">
+
+    <Button
+        android:id="@+id/takım1"
+        android:layout_width="214dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="166dp"
+        android:text="Birinci Takım"
+        app:layout_constraintBottom_toTopOf="@+id/takım2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/takım2"
+        android:layout_width="207dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="186dp"
+        android:text="İkinci Takım"
+        app:layout_constraintBottom_toTopOf="@+id/takım3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/takım1" />
+
+    <Button
+        android:id="@+id/takım3"
+        android:layout_width="199dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="145dp"
+        android:text="Üçüncü Takım"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/takım2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

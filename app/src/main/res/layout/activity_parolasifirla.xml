@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintarkaplan"
+    tools:context=".Parolasifirla">
+
+    <TextView
+        android:id="@+id/prflsifirlamagizlilik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üye olarak veya giriş yaparak kullanım ve gizlilik koşullarını kabul etmiş olursunuz. "
+        android:textColor="@color/buton"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prflsifirlamagirisbutton" />
+
+    <TextView
+        android:id="@+id/prflsifirlamatext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginBottom="109dp"
+        android:text="PAROLA SIFIRLAMA"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/prflsifirlamaTextEmailAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/prflsifirlamaTextEmailAddress"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/eddittextarkaplan"
+        android:ems="10"
+        android:hint="E-mail adresinizi giriniz"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/prflsifirlamabutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/prflsifirlamatext"
+        app:layout_constraintTop_toBottomOf="@+id/prflsifirlamatext" />
+
+    <Button
+        android:id="@+id/prflsifirlamagirisbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/buttonarkaolan"
+        android:text="Giriş Yap"
+        app:layout_constraintBottom_toTopOf="@+id/prflsifirlamagizlilik"
+        app:layout_constraintStart_toStartOf="@+id/prflsifirlamabutton"
+        app:layout_constraintTop_toBottomOf="@+id/prflsifirlamabutton" />
+
+    <TextView
+        android:id="@+id/prflsifirlamatextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prflsifirlamatext" />
+
+    <Button
+        android:id="@+id/prflsifirlamabutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="29dp"
+        android:text="Parolamı Sıfırla"
+        app:layout_constraintBottom_toTopOf="@+id/prflsifirlamagirisbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prflsifirlamaTextEmailAddress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

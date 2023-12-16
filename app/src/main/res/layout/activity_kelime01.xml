@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintarkaplan"
+    tools:context=".kelime11">
+
+    <TextView
+        android:id="@+id/kelime1"
+        android:layout_width="259dp"
+        android:layout_height="58dp"
+        android:background="@color/orta"
+        android:text="   MAKARNA"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <TextView
+        android:id="@+id/kelime1ceza"
+        android:layout_width="187dp"
+        android:layout_height="74dp"
+
+        android:background="@color/buton"
+        android:text=" KETÇAP"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <TextView
+        android:id="@+id/kelime1ceza3"
+        android:layout_width="187dp"
+        android:layout_height="75dp"
+
+        android:background="@color/buton"
+        android:text="   MASA "
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <TextView
+        android:id="@+id/kelime1ceza4"
+        android:layout_width="187dp"
+        android:layout_height="74dp"
+
+        android:background="@color/buton"
+        android:text="      EV"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/kelime1ceza5"
+        android:layout_width="187dp"
+        android:layout_height="74dp"
+
+        android:background="@color/buton"
+        android:text=" YEMEK"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="107dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="106dp"
+        android:layout_height="57dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="107dp"
+        android:layout_height="74dp"
+
+        android:backgroundTint="@color/orta"
+        android:text="PAS"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="624dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

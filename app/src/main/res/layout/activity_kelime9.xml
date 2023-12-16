@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/constraintarkaplan"
+    tools:context=".kelime9">
+
+    <TextView
+        android:id="@+id/kelime9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="413dp"
+        android:background="@color/orta"
+        android:text="    SAĞLAM"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/button93"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kelime9ceza"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:background="@color/buton"
+        android:text="YIKILMAZ"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/kelime9ceza5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime9" />
+
+    <TextView
+        android:id="@+id/kelime9ceza3"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="75dp"
+        android:background="@color/buton"
+        android:text="DAYANIKLI "
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/button91"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime9ceza4" />
+
+    <TextView
+        android:id="@+id/kelime9ceza4"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="1dp"
+        android:background="@color/buton"
+        android:text="      EV"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/kelime9ceza3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime9ceza5" />
+
+    <TextView
+        android:id="@+id/kelime9ceza5"
+        android:layout_width="187dp"
+        android:layout_height="0dp"
+
+        android:background="@color/buton"
+        android:text=" SAĞLIKLI"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/kelime9ceza4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime9ceza" />
+
+    <Button
+        android:id="@+id/button91"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/orta"
+        android:text="TABU"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button92"
+        app:layout_constraintTop_toBottomOf="@+id/kelime9ceza3" />
+
+    <Button
+        android:id="@+id/button92"
+        android:layout_width="0dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="17dp"
+        android:backgroundTint="@color/orta"
+        android:text="DOĞRU"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button91"
+        app:layout_constraintEnd_toStartOf="@+id/button91"
+        app:layout_constraintStart_toEndOf="@+id/button93" />
+
+    <Button
+        android:id="@+id/button93"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="22dp"
+        android:backgroundTint="@color/orta"
+        android:text="PAS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelime9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
